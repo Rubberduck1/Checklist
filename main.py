@@ -5,6 +5,7 @@ import csv
 
 root = Tk()
 root.title('Fahrzeugkontrolle')
+root.geometry('500x1000')
 #root.iconbitmap('bus.png')
 
 kfz = StringVar()
