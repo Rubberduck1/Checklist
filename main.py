@@ -1,24 +1,11 @@
 from tkinter import *
 from PIL import ImageTk, Image
 import csv
-'''
-with open('PostDummy.csv', 'r') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-
-    next(csv_reader)
-    
-    for line in csv_reader:
-        x = (line[3])
-        y = (line[1])
-        #print(x, y)
-'''
-
 
 
 root = Tk()
 root.title('Fahrzeugkontrolle')
 #root.iconbitmap()
-
 
 kfz = StringVar()
 kfz.set("prove")
