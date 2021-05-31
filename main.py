@@ -5,7 +5,7 @@ import csv
 
 root = Tk()
 root.title('Fahrzeugkontrolle')
-#root.iconbitmap()
+#root.iconbitmap('bus.jpg')
 
 kfz = StringVar()
 kfz.set("prove")
