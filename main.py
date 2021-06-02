@@ -13,7 +13,7 @@ class App(tk.Tk):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.title('Fahrzeugkontrolle')
-        self.geometry('500x1000')
+        self.geometry('500x500')
         self.string_var = tk.StringVar()
         self.string_var.set("prove")
         self.r_btns = {}
